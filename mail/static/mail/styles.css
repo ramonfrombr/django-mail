@@ -1,0 +1,84 @@
+body {
+    font-size: 1.5em;
+}
+textarea {
+    min-height: 400px;
+}
+
+.mailbox-item {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #EEEEEE;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 0.8em;
+    box-shadow: 1px 1px 1px 1px rgb(224, 217, 217);
+}
+
+.mailbox-right {
+    display: flex;
+}
+
+.mailbox-read {
+    background-color: #ebebeb;
+    border: 1px solid rgb(199, 199, 199);
+}
+
+.mailbox-unread {
+    background-color: white;
+    border: 1px solid rgb(139, 199, 255);
+}
+
+.mail {
+    font-size: 14px;
+}
+
+.mail-details {
+    background-color: rgb(243, 243, 243);
+    color: rgb(68, 68, 68);
+    border: 1px solid rgb(199, 199, 199);
+    margin-bottom: 20px;
+    padding: 8px;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+}
+
+.move-top {
+    position: relative;
+    top: -3px;
+}
+
+.mail-body {
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.button-container {
+    display: flex;
+    z-index: 10;
+    position: relative;
+    left: 10px;
+}
+
+.button-container button {
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-right: 10px;
+    font-size: 1em;
+}
+
+.archive-button {
+    background-color: gray;
+    
+}
+
+.reply-button {
+    background-color: rgb(12, 78, 221);
+}
